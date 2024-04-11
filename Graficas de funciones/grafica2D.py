@@ -18,12 +18,12 @@ xf=vx+k
 X=np.linspace(x0,xf,500)
 Y=f(X)
 plt.plot(X,Y,'#EAD51B',linewidth=1.5,label='$f(x)=ax^2+bx+c$')
-plt.scatter(vx,f(vx),color='#EA631B',linewidths=2.0,label='Vértice') #marcamos el vértice de la parábola
-plt.text(vx, f(vx)+0.2, '$V$', color="red",fontsize=12, ha='center', va='bottom') #etiqueta del vértice
+plt.scatter(vx,f(vx),color='#EA631B',linewidths=2.0, zorder=5,label='Vértice') #marcamos el vértice de la parábola
+plt.text(vx, f(vx)+0.2, '$V$', color="red",fontsize=12, ha='center', va='bottom',fontweight='bold') #etiqueta del vértice
 plt.axhline(0, color='black', linewidth=1) #eje x
 plt.text(5, -0.1, '$x$', fontsize=10, ha='left', va='top') #etiqueta del eje x
 plt.axvline(0, color='black', linewidth=1) #eje y
-plt.text(0, 5, '$y$', fontsize=10, ha='center', va='bottom') #etiqueta del eje x
+plt.text(0, 5, '$y$', color="black",fontsize=10, ha='center', va='bottom') #etiqueta del eje x
 plt.grid() #mallado
 #plt.xticks(np.arange(-1,5,0.5)) #control mallado horizontal
 #plt.yticks(np.arange(-6,5,1)) #control mallado vertical
