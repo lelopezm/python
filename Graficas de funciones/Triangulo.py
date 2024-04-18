@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt #libreria de gráficos
 
 #vertices del triangulo
-ax=-1; ay=0 #punto A
+ax=-1; ay=1 #punto A
 bx=0; by=3 #punto B
 cx=5; cy=0 #punto C
 
