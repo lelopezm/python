@@ -1,0 +1,58 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[total={18cm,21cm},top=2cm, left=2cm]{geometry} 
+\usepackage{amsmath,amssymb,amsfonts,latexsym} 
+\usepackage{graphicx} %gràficos y figuras
+\usepackage{caption}
+\usepackage{dsfont}
+\usepackage{multicol}
+\usepackage{color, xcolor}
+%\usepackage[x11names,table]{xcolor}
+\usepackage{hyperref}
+%colores
+\definecolor{rojo}{RGB}{255,0,0}
+\definecolor{azul}{RGB}{0,0,255}
+\definecolor{verde}{RGB}{10,158,21}
+\definecolor{amarillo}{RGB}{212,148,11}
+\pagestyle{empty} %Elimina la numeración de las páginas
+\parskip=0.5cm %Genera un espacio de 0.5cm entre los párrafos
+\parindent=0mm %Elimina la sangría.
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\refname}{Bibliografía}
+%\spanishdecimal{.}
+%nuevos comandos
+\newcommand{\R}{\mathds{R}}
+\newcommand{\sen}{\text{sen}}
+\newcommand{\limite}[2] { \lim_{ #1 \rightarrow #2}}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\norma}[1]{\left\| #1 \right\|}
+%%
+%Paquete Tikz
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.8}
+\tikzset{flechaizq/.style={<-,>=latex}} 
+\tikzset{flechader/.style={->,>=latex}}
+\tikzset{flechadoble/.style={<->,>=latex}}
+\tikzset{punteada/.style={line width=2, dash pattern = on 6pt off 3pt}}
+\tikzset{continua/.style={line width=1, flechadoble}}
+\tikzset{conector/.style={line width=2, flechadoble, dashed}}
+\usetikzlibrary{shapes}
+\usetikzlibrary{positioning}
+\usetikzlibrary{intersections}
+\begin{document}
+	\parbox{7cm}{\includegraphics[scale=0.5]{logo.pdf}}\hfill
+	\parbox{11cm}{
+		\begin{center}
+			\textbf{Modelos Matemáticos con Python}	\\
+			\textbf{Semillero de Investigación SIMatPy} \\
+		    Nombre y Apellido
+		\end{center}
+	}
+	
+	\section{Cremiento exponencial}
+
+	La \textcolor{azul}{Ley de Malthus} establece que 
+	
+\end{document}
